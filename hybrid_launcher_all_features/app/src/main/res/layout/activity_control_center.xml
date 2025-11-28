@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEFFFFFF">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Control Center" android:textSize="18sp" android:paddingBottom="8dp"/>
+
+    <Button android:id="@+id/btnWifi" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Wi‑Fi" android:layout_marginTop="6dp"/>
+    <Button android:id="@+id/btnBluetooth" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Bluetooth" android:layout_marginTop="6dp"/>
+    <Button android:id="@+id/btnPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Open Settings" android:layout_marginTop="6dp"/>
+
+    <TextView android:layout_marginTop="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Brightness"/>
+    <SeekBar android:id="@+id/seekBrightness" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp"/>
+
+</LinearLayout>
